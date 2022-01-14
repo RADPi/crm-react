@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "Pedro",
+      "empresa": "LUXURY HARDWARE INC",
+      "email": "luxhardinc@gmail.com",
+      "telefono": "3055929203",
+      "notas": "",
+      "id": 4
+    },
+    {
+      "nombre": "Rafael",
+      "empresa": "LUXURY HARDWARE INC",
+      "email": "luxhardinc@gmail.com",
+      "telefono": "3055929203",
+      "notas": "dsvsdf",
+      "id": 5
+    }
+  ]
+}
