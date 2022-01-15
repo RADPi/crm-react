@@ -6,7 +6,7 @@ const Inicio = () => {
 	useEffect(() => {
 		const obtenerClientesAPI = async () => {
 			try {
-				const url = 'http://localhost:2999/clientes'
+				const url = import.meta.env.VITE_API_URL
 				const respuesta = await fetch(url)
 				const resultado = await respuesta.json()
 				setClientes(resultado)
@@ -20,7 +20,7 @@ const Inicio = () => {
 	const handleEliminar = async id => {
 		if (confirm('Deseas eliminar este cliente?')) {
 			try {
-				const url = 'http://localhost:2999/clientes/' + id
+				const url = import.meta.env.VITE_API_URL + id
 				const respuesta = await fetch(url, {
 					method: 'DELETE',
 				})
@@ -39,10 +39,12 @@ const Inicio = () => {
 			<p className="mt-3">Administra tus clientes</p>
 			<table className="w-full mt-5 table-auto shadow bg-white">
 				<thead className="bg-blue-800 text-white">
-					<th className="p-2">Nombre</th>
-					<th className="p-2">Contacto</th>
-					<th className="p-2">Empresa</th>
-					<th className="p-2">Acciones</th>
+					<tr>
+						<th className="p-2">Nombre</th>
+						<th className="p-2">Contacto</th>
+						<th className="p-2">Empresa</th>
+						<th className="p-2">Acciones</th>
+					</tr>
 				</thead>
 				<tbody>
 					{clientes.map(cliente => (

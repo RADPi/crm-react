@@ -1,20 +1,36 @@
 {
   "clientes": [
     {
-      "nombre": "Pedro",
-      "empresa": "LUXURY HARDWARE INC",
-      "email": "luxhardinc@gmail.com",
-      "telefono": "3055929203",
-      "notas": "",
-      "id": 4
+      "nombre": "Juan",
+      "empresa": "Google",
+      "email": "juan@google.com",
+      "telefono": "1234567890",
+      "notas": "Juan trabaja en Google",
+      "id": 1
     },
     {
-      "nombre": "Rafael",
-      "empresa": "LUXURY HARDWARE INC",
-      "email": "luxhardinc@gmail.com",
-      "telefono": "3055929203",
-      "notas": "dsvsdf",
-      "id": 5
+      "nombre": "Maria",
+      "empresa": "Facebook",
+      "email": "maria@facebook.com",
+      "telefono": "23456789",
+      "notas": "Maria trabaja en Facebook",
+      "id": 2
+    },
+    {
+      "nombre": "Jose",
+      "empresa": "Microsoft",
+      "email": "jose@microsoft.com",
+      "telefono": "34567890",
+      "notas": "Jose rompe el Windows",
+      "id": 3
+    },
+    {
+      "nombre": "Laura",
+      "empresa": "Apple",
+      "email": "laura@apple.com",
+      "telefono": "45678901",
+      "notas": "Laura come manzanas",
+      "id": 4
     }
   ]
 }
